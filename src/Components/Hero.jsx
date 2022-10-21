@@ -8,7 +8,7 @@ export default function Hero() {
             <h1 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Your power to own, starts when you create
             </h1>
-            <div className="flex justify-between py-8">
+            <form className="flex justify-between py-8">
               <label
                 for="UserEmail"
                 class="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-purple-600 focus-within:ring-1 focus-within:ring-purple-600"
@@ -27,7 +27,7 @@ export default function Hero() {
               <button className="px-6 py-3 text-white duration-150 bg-purple-900 rounded-md hover:bg-purple-700 active:shadow-lg">
                 Sign Up Free
               </button>
-            </div>
+            </form>
             <p className="mt-4 text-xl text-gray-500">
               Astalavee is an eCommerce platform that offers creators a webshop
               and the tools they need to market and sell their creativities.
